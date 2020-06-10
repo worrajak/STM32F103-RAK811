@@ -137,13 +137,13 @@ delay(100);
     delay(200);
     sendCommand("at+set_config=lora:join_mode:1\r\n"); //0:OTAA 1:ABP 
     delay(2000);
-    sendCommand("at+set_config=lora:dev_addr:260411E2\r\n");
+    sendCommand("at+set_config=lora:dev_addr:26040000\r\n");
     delay(200);
-    sendCommand("at+set_config=lora:nwks_key:28AED22B7E1516A609CFABF715884F3C\r\n");
+    sendCommand("at+set_config=lora:nwks_key:28AED22B7E1516A609CFABF715880000\r\n");
     delay(200);
-    sendCommand("at+set_config=lora:apps_key:1628AE2B7E15D2A6ABF7CF4F3C158809\r\n");
+    sendCommand("at+set_config=lora:apps_key:1628AE2B7E15D2A6ABF7CF4F3C150000\r\n");
     delay(200);
-    sendCommand("at+set_config=lora:dev_eui:0016B93B00F5B12F\r\n");
+    sendCommand("at+set_config=lora:dev_eui:0016B93B00F50000\r\n");
     delay(200);  
     
 //  join the connection
