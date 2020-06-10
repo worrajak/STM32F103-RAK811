@@ -139,18 +139,18 @@ delay(100);
 //  delay(2000);
 //
 //  set conn config OTAA TTN114 
-  sendCommand("at+set_config=lora:dev_eui:0016B93B00F5B12F\r\n");
+  sendCommand("at+set_config=lora:dev_eui:0000B93B00F5B12F\r\n");
   delay(200);
-  sendCommand("at+set_config=lora:app_eui:70B3D57EF000621D\r\n");
+  sendCommand("at+set_config=lora:app_eui:0000D57EF000621D\r\n");
   delay(200);
-  sendCommand("at+set_config=lora:app_key:5C4C822ACD6355819B271976AF303B76\r\n");
+  sendCommand("at+set_config=lora:app_key:0000822ACD6355819B271976AF303B76\r\n");
   delay(200);
 
-//  sendCommand("at+set_config=lora:dev_addr:26041F43\r\n");
+//  sendCommand("at+set_config=lora:dev_addr:00001F43\r\n");
 //  delay(200);
-//  sendCommand("at+set_config=lora:nwks_key:CAD5B1896490A1B402A0BDA6AFD86991\r\n");
+//  sendCommand("at+set_config=lora:nwks_key:0000B1896490A1B402A0BDA6AFD86991\r\n");
 //  delay(200);
-//  sendCommand("at+set_config=lora:apps_key:7E95A0280C659A07B30A4E3CA4CF06EC\r\n");
+//  sendCommand("at+set_config=lora:apps_key:0000A0280C659A07B30A4E3CA4CF06EC\r\n");
 //  delay(200);
   
 //  join the connection
